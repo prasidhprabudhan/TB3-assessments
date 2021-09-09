@@ -20,6 +20,49 @@ img {
 .body {
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+
+input[type="submit"] {
+    border-radius: 10px;
+    margin: 20px;
+    width: 80%;
+}
+input[type="text"]  {
+    margin: 20px;
+    border: none;
+    width: 80%
+}
+
+#form {
+    background-color: #F4F7FA;
+    width: 100%;
+}
+
+p {
+    color: #3C3C3C
+}
+.choose {
+    background-color: #F4F7FA ;
+    padding : 20px;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+    
+}
+.footer {
+    background-color: #F4F7FA ;
+    padding : 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
